@@ -21,7 +21,6 @@ public class ReorderingLogFile {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-
         String[] input = br.readLine().split(",");
 
         List<String> numLogList = new ArrayList<>();
@@ -34,7 +33,6 @@ public class ReorderingLogFile {
                 charLogList.add(log);
             }
         }
-
 
         charLogList.sort((l1, l2) ->{
                     String[] split1 = l1.split(" ", 2);
@@ -52,13 +50,6 @@ public class ReorderingLogFile {
         for(String log : charLogList) {
             System.out.println(log);
         }
-
-
-
-
-
-        
-
     }
 
 }
