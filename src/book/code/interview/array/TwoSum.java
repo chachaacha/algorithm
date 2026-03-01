@@ -1,7 +1,5 @@
 package book.code.interview.array;
 
-import com.sun.source.tree.EnhancedForLoopTree;
-
 import java.util.HashMap;
 import java.util.Map;
 

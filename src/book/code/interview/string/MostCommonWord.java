@@ -27,7 +27,7 @@ public class MostCommonWord {
 
         for (String word : inputSent.split(" ")) {
             if (!word.equals(ban)) {
-                map.put(word, map.getOrDefault(word, 0) + 1);
+                map.merge(word, 1, Integer::sum);
             }
         }
 
